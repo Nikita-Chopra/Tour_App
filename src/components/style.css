@@ -1,0 +1,83 @@
+/* Loader */
+.loader{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* Tour */
+
+.tour{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.tour-1{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lavender;
+}
+
+.tour-2{
+    height: 300vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: lavenderblush;
+}
+
+.tour-card{
+    height: 55vh;
+    width: 60vh;
+    border: 1px solid red;
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.tour-txt1{
+    font-size: 12px;
+    color: black;
+}
+
+.tour-txt2{
+    font-size: 8px;
+    color: gray;
+}
+
+.tour-img{
+    height: 20vh;
+    width: 100%;
+}
+
+.tour-btn{
+    height: 5vh;
+    width: 50%;
+    background-color: palevioletred;
+    border: none;
+    cursor: pointer;
+}
+
+.tour-btn1{
+    height: 4vh;
+    width: 10vh;
+    font-size: 12px;
+    border: 1px solid greenyellow;
+    outline: none;
+    cursor: pointer;
+}
